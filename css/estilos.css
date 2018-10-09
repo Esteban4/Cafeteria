@@ -1,0 +1,50 @@
+*,*:before,*:after{
+   margin:0;
+   padding:0;
+   box-sizing:border-box;
+}
+header{
+    background:#B2DFDB ;
+    width:150%;
+    height:100px;
+
+}#B2DFDB
+nav.menu{
+    width:100%;
+    height:50px;
+  
+    
+}
+.menu ul{
+    list-style: none;
+    padding:0;
+    width: 100%;
+    max-width:340px;
+    margin:0 auto;
+    display: block;
+    
+    
+}
+.menu ul li{
+    float: left;
+    width: auto;
+}
+.menu ul:before,
+.menu ul:after{
+    content: '';
+    clear: both;
+    display: block;
+
+}
+.menu ul li a{
+    padding: 15px 5px;
+    text-decoration: none;
+    display: block;
+    color:#212121;
+    font-size: 17px;
+        
+}
+.menu ul li a:hover{
+    background: #1976D2;
+    color:#f4f4f4;}
+   
